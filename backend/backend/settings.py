@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'token')
 
 DEBUG = True
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'taskihome.zapto.org', '84.252.136.149']
 
 
 # Application definition
